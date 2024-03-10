@@ -5,10 +5,10 @@ const RangoUsuarioSchema =mongoose.Schema({
         type:mongoose.Schema.Types.ObjectId,
         ref:"rangos",
     },
-    puntosRequeridos:[{
+    usuarios:[{
         type:mongoose.Schema.Types.ObjectId,
         ref:"Usuario",
-    }]
+    }],
     
    
 },{

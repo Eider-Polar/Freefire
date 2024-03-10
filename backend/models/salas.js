@@ -11,10 +11,10 @@ const salasSchema =mongoose.Schema({
         type:Date,
         default:Date.now(),
     },
-     jugador:[{
+    usuarios:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:"Usuario",
-    }],
+        ref:"informacionpartida",
+    },
   
 },{
     timestamps:true
