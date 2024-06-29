@@ -1,4 +1,3 @@
-import rangos from "../models/rangos.js"
 import salas from "../models/salas.js";
 const agregarSala= async (req,res)=>{
     try {

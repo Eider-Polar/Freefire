@@ -11,10 +11,17 @@ const salasSchema =mongoose.Schema({
         type:Date,
         default:Date.now(),
     },
-    usuarios:{
+    usuario:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:"informacionpartida",
+        ref:"Usuario",
     },
+    kills:{
+        type:String 
+
+    },
+    posicion:{
+        type:String,
+    }
   
 },{
     timestamps:true

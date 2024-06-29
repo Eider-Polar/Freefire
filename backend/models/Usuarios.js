@@ -30,7 +30,7 @@ const usuarioSchema = mongoose.Schema({
         unique:true
     }
     ,
-    puntos:{
+    llaves:{
         type:Number,
         default:0
     }

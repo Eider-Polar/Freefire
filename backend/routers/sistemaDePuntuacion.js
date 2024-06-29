@@ -3,7 +3,7 @@ import { puntuacion}from "../controllers/sistemaDePuntuacionController.js"
 
 const router=Express.Router();
 
-router.post("/",puntuacion)
+router.get("/",puntuacion)
 
 
 

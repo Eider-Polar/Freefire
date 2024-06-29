@@ -1,13 +1,13 @@
 import { mongoose } from "mongoose";
 
 const rangosSchema =mongoose.Schema({
-    rango:{
+    Usuario:{
         type:String,
         trim:true,
         require:true,
       
     },
-    puntosRequeridos:{
+    puntosTotales:{
         type:Number,
         trim:true,
         default:"0"
